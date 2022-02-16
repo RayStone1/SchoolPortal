@@ -11,7 +11,7 @@
             <div class="new">
                 <h2>Анимешники в законе</h2>
                 <img src="img/ef9k_78OzLQ.jpg" alt="">
-                <p>Анимешные дауны</p>
+                <p>Аниме пати</p>
             </div>
         </div>
         <div class="rightcolumn">
