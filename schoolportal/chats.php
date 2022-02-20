@@ -39,3 +39,4 @@ $chatlist=$mysql->query($sql);
 </div>
 <?php endif;?>
 <?php require_once("blocks/footer.php"); ?>
+<br>
