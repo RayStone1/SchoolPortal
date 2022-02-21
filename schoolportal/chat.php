@@ -19,6 +19,7 @@ else:
 $sql="SELECT * FROM `chat` WHERE `chat_id`='$id_chat'";
 $chatinfo=$mysql->query($sql)->fetch_assoc();
 ?>
+<br>
 <div class="chat">
     <div class="container">
         <div class="chat__inner">
