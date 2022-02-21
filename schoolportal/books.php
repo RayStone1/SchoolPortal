@@ -34,5 +34,5 @@ require_once "blocks/header.php"
         </div>
     </div>
    
-
+<br>
     <?php require_once("blocks/footer.php"); ?>
