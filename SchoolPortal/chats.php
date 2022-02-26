@@ -26,7 +26,7 @@ $chatlist=$mysql->query($sql);
             <div class="chatlist">
                 <ul>
                     <?php while($idchats=$chatlist->fetch_assoc()):
-                    $sql="SELECT * FROM `chat` WHERE `chat_id`='$idchats[chat_id]'"; 
+                    
                     $userchat=$mysql->query($sql)->fetch_assoc();       
                     ?>
                         <li><h1><a href="chat.php?idchat=<?= $userchat['chat_id']?>"><?= $userchat['name']?></a></h1></li>
